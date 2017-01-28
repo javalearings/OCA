@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="oracle_thin-1581ad30c08-7885675a6690ecdd" provider="oracle" driver="oracle_thin" name="Local DBA connection orcl" create-date="1477919292536" login-date="1477919333127" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="127.0.0.1" port="1521" server="" database="orcl" url="jdbc:oracle:thin:@127.0.0.1:1521:orcl" user="sys" password="HBYFLBARF0Jl8w==" home="C:\app\emani\product\11.2.0\dbhome_1" type="dev">
+			<property name="@dbeaver-sid-service@" value="SID"/>
+			<property name="@dbeaver-use-rule-hint@" value="false"/>
+			<property name="@dbeaver-connection-type@" value="BASIC"/>
+			<property name="@dbeaver-check-schema-content@" value="true"/>
+			<property name="@dbeaver-internal-logon@" value="sysdba"/>
+			<property name="@dbeaver-always-show-dba@" value="false"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+	<data-source id="oracle_thin-1581b00edf2-6141e6e5b28ca2b0" provider="oracle" driver="oracle_thin" name="Oracle - New Connection" create-date="1477922076267" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1521" server="" database="orcl" url="jdbc:oracle:thin:@localhost:1521:orcl" user="HR" password="HBYFLBARF0Jl8w==" home="C:\app\emani\product\11.2.0\dbhome_1" type="dev">
+			<property name="@dbeaver-sid-service@" value="SID"/>
+			<property name="@dbeaver-use-rule-hint@" value="false"/>
+			<property name="@dbeaver-connection-type@" value="BASIC"/>
+			<property name="@dbeaver-check-schema-content@" value="true"/>
+			<property name="@dbeaver-always-show-dba@" value="false"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<bootstrap/>
+		</connection>
+	</data-source>
+</data-sources>
